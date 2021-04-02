@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Lista de Usuários</title>
+		
+		<link rel="stylesheet" type="text/css" href="styles/reset.css">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+       
+	</head>
+	<body>
+		<header>
+				<h1 class="titulo">
+					<img class="img" src="logo_omni_fundo_azul.png"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill-rule="evenodd" d="M14.53 15.59a8.25 8.25 0 111.06-1.06l5.69 5.69a.75.75 0 11-1.06 1.06l-5.69-5.69zM2.5 9.25a6.75 6.75 0 1111.74 4.547.746.746 0 00-.443.442A6.75 6.75 0 012.5 9.25z"></path></svg>
+				</h1>
+		</header>
+		<main>
+			<section class="">
+				<h2 class="imge"><img class="imge" src="https://www.bizfacil.com.br/imagens/enumList.png">
+				Lista de Usuários</h2>
+				<table>
+					<thead>
+						<tr>
+							<th width="25%">Login</th>
+							<th width="35%">Nome</th>
+							<th width="20%">Status</th>
+							<th width="10%">Bloquear</th>
+							<th width="10%">Editar</th>
+						</tr>
+					</thead>
+					<tbody id="tabela-usarios">
+						<tr class="" id="">
+							<td >ALLAYE_GANA</td>
+							<td>Allaye Gana</td>
+							<td ><span name="status1">Ativo</span></td>
+							<td><input id="1" type="button" value="bloquear"  onclick="bloquear(this.id)"></td>
+							<td ><a href="cadastro.html"><button>Editar</button></td>
+						</tr>
+
+						<tr class="usarios" >
+							<td >ANA_DIAS</td>
+							<td>Ana Caroline Macedo Dias</td>
+							<td ><span name="status2">Ativo</span></td> 
+						    <td><input id="2" type="button" value="bloquear"  onclick="bloquear(this.id)"></td>
+							<td ><a href="cadastro.html"><button>Editar</button></td>
+						</tr>
+
+						<tr class="usarios" >
+							<td >DAVI_AGUIAR</td>
+							<td>Davi Pereira de Aguiar Neto</td>
+							<td ><span name="status3">Ativo</span></td>
+							<td><input id="3"  type="button" value="bloquear"  onclick="bloquear(this.id)"></td>
+						    <td ><a href="cadastro.html"><button>Editar</button></td>
+						</tr>
+
+						<tr class="usarios" >
+							<td >LHENRIQUE</td>
+							<td>Luiz Henrique Mendes</td>
+							<td ><span name="status4">bloqueado
+                            <img src='https://www.bizfacil.com.br/imagens/cadeado.gif'></span></td>
+						    <td><input id="4" type="button" value="bloquear"  onclick="bloquear(this.id)"></td>
+							<td ><a href="cadastro.html"><button>Editar</button></td>
+						</tr>
+						<tr class="usarios" >
+							<td >MARIO_PINA</td>
+							<td>Mario Agusto Pina</td>
+							<td ><span name="status5">Ativo</span></td>
+							<td><input id="5" type="button" value="bloquear"  onclick="bloquear(this.id)"></td>
+							<td ><a href="cadastro.html"><button>Editar</button></td>
+						</tr>
+							<tr class="usarios" >
+							<td>PATRICK_SANTOS</td>
+							<td>Patrick Alves dos Santos</td>
+						    <td ><span name="status6">Ativo</span></td>
+						    <td><input id="6" type="button" value="bloquear"  onclick="bloquear(this.id)"></td>
+							<td ><a href="cadastro.html"><button type="button" value="bodyTabela" id="salvar" onclick="bodyTabela()">Editar</button></td>
+						</tr>
+							<tr class="usarios" >
+							<td >WILLIAM_MIRANDA</td>
+							<td>William Mendes Miranda</td>
+							<td ><span name="status7">Ativo</span></td>
+						    <td><input id="7" type="button" value="bloquear"  onclick="bloquear(this.id)"></td>
+							<td ><a href="cadastro.html"><button>Editar</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+		</main>
+		<section class="container">
+    <legend id="conta-registro">7 registros</legend>
+</section>
+      <script src="js/index.js"></script>
+	</body>
+
+</html>
+
+

@@ -1,0 +1,64 @@
+
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+	background: #122A73;
+
+}
+
+.img{
+	height: 64px;
+}
+
+
+.imge{
+	 font-size: 55px;
+        margin: 10px 0;
+}
+
+
+.i-h2{
+	 font-size: 55px;
+        margin: 10px 0;
+}
+
+
+table{
+	margin: 0 auto;
+	padding: 0 30px 0 90px;
+	text-align: center;
+}
+thead{
+	background: #336699;
+	color: white;
+	font-weight: bold;
+}
+
+td,th{
+    border: 1px solid lightgray;
+	padding: 8px 15px;
+	text-align: center;
+}
+legend{
+	text-align: center;
+
+}
+.cle{
+	height: 10px;
+}
+
+
+
+
+
+
+
+
+
+	
+
+
